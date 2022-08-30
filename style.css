@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 .container{
     width: 90%;
@@ -42,7 +43,6 @@ button{
     padding: 33px 79px 0 106px;
 }
 .banner-text{
-    font-family: 'Poppins', sans-serif;
     color: #FFFFFF;
     padding-right: 29px;
 }
@@ -76,7 +76,8 @@ button{
 /* Top Banner */
 /* main content */
 main{
-    margin-top: 130px;
+    padding: 130px 0;
+    background-color: #FFFFFF;
 }
 /* main content */
 /* Sidebar */
@@ -97,7 +98,6 @@ main{
     text-decoration: none;
     display: block;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
@@ -111,6 +111,10 @@ main{
     color: #FFFFFF;
     background-color: #2827CC;
 }
+.btn-sidebar:active{
+    color: #FFFFFF;
+    background-color: #2827CC;
+}
 .btn-container .btn-sidebar{
     margin-bottom: 30px;
 }
@@ -119,7 +123,7 @@ main{
 }
 /* Sidebar */
 /* Posts preview */
-.posts-preview{
+.cards-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
@@ -165,3 +169,40 @@ main{
     align-items: center;
 }
 /* Posts preview */
+/* Footer Area  */
+footer{
+    background-color: #161616;
+    text-align: center;
+    padding: 130px 0;
+}
+.footer-title{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+}
+.divider{
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 50px 0;
+}
+.footer-menu ul{
+    list-style-type: none;
+}
+.footer-menu ul li{
+    display: inline;
+    margin-right: 20px;
+}
+.footer-menu ul li:last-child{
+    margin-right: 0;
+}
+.footer-menu ul li a{
+    text-decoration: none;
+    color: #B9B9B9;
+    font-size: 16px;
+    transition: all 0.8s ease-out;
+}
+.footer-menu ul li a:hover{
+    color: #23C4ED;
+}
+/* Footer Area  */
