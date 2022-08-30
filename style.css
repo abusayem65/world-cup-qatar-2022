@@ -111,7 +111,7 @@ main{
     color: #FFFFFF;
     background-color: #2827CC;
 }
-.btn-sidebar:active{
+.active-btn{
     color: #FFFFFF;
     background-color: #2827CC;
 }
@@ -124,6 +124,7 @@ main{
 /* Sidebar */
 /* Posts preview */
 .cards-container{
+    max-width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
@@ -206,3 +207,30 @@ footer{
     color: #23C4ED;
 }
 /* Footer Area  */
+
+/* Upcoming Match Page styles  */
+.card-upcoming-match{
+    max-width: 312px;
+    height: 242px;
+    padding: 53px 30px;
+    align-items: center;
+    text-align: center;
+}
+.card-upcoming-match .card-body{
+    padding: 0;
+}
+.card-thumbnails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-thumbnails img{
+    max-width: 93px;
+    height: 56px;
+}
+.vs{
+    font-size: 1em;
+    font-weight: 700;
+    margin: 0 16px;
+}
+/* Upcoming Match Page styles  */
